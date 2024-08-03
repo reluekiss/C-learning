@@ -1,5 +1,7 @@
 #include <immintrin.h>
+#include <smmintrin.h>
 #include <stdio.h>
+#include <xmmintrin.h>
 
 float dotProd(__m512 a, __m512 b) {
     __m512 c = _mm512_mul_ps(a, b);
@@ -30,9 +32,18 @@ int main()
 {
     __m512 vec = _mm512_set_ps(16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1);
     __m512 vec1 = _mm512_set_ps(16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1);
-
-    float sum = dotProd(vec1, vec);
+    __m128 a = _mm_set_ps(0, 1, 2, 3);
+    __m128 b = _mm_set_ps(0, 1, 2, 3);
     
+    float sum = dotProd(vec1, vec);
+    __m128 cross = cross_product(a, b);
+    int arr[4];
+    arr[0] = _mm_extract_ps(cross, 0);
+    arr[1] = _mm_extract_ps(cross, 1);
+    arr[2] = _mm_extract_ps(cross, 2);
+    arr[3] = _mm_extract_ps(cross, 3);
+    for(int i = 0; i < 4; i++)
+        printf("%d ", arr[i]);
     printf("dot: %f\n", sum);
     
     return 0;
