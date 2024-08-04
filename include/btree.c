@@ -1,10 +1,12 @@
+#include <limits.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "btree.h"
+#include "llist.h"
 
 // Purpose: Perform a recursive traversal of
-//        a tree destroying all nodes.  
+//        a tree, removing all descendents from specified node.  
 // Note: Function is declared static so it cannot
 //        be accessed from outside                      
 void clearTree(TreeNode *T)
@@ -16,35 +18,16 @@ void clearTree(TreeNode *T)
     return;
 }
 
-// Purpose: Duplicate a node in the tree.  This
-//        is used to allow returning a complete
-//        structure from the tree without giving
-//        access into the tree through the pointers.               
-// Returns: Pointer to a duplicate of the node arg
-// Note: Function is declared static so it cannot
-//        be accessed from outside                      
-TreeNode *dupNode(TreeNode * T)
-{
-    TreeNode *dupNode;
-
-    dupNode = (TreeNode *)malloc(sizeof(TreeNode));
-    *dupNode = *T;    // Copy the data structure
-    dupNode->left = NULL;    // Set the pointers to NULL
-    dupNode->right = NULL;
-    return dupNode;
-}
-
 // Purpose: Perform an iterative search of the tree and     
 //        return a pointer to a treenode containing the  
 //        search key or NULL if not found.               
 // Preconditions: None
-// Returns: Pointer to a duplicate of the node found
-TreeNode *searchTree(TreeNode *root, int key)
+TreeNode *searchTree(BTree *T, int key)
 {
     int      ValueInTree = FALSE;
     TreeNode *temp;
 
-    temp = root;
+    temp = &T->root;
     while((temp != NULL) && (temp->key != key))
     {
         if(key < temp->key)
@@ -53,19 +36,21 @@ TreeNode *searchTree(TreeNode *root, int key)
             temp = temp->right; // Search key comes after this node 
     }
     if(temp == NULL) return temp;    // Search key not found
-    else
-        return(dupNode(temp));    // Found it so return a duplicate
+    else{
+        temp->freq++;
+        return(temp);    // Found it so return a duplicate
+    }
 }
 
 // Insert a new node into the tree.                
 // Preconditions: None
 // Returns: int (TRUE if successful, FALSE otherwise)
-int insertBtree1(TreeNode *root, TreeNode *newNode)
+int insertBtree1(BTree *T, TreeNode *newNode)
 {
     TreeNode *temp;
     TreeNode *back;
 
-    temp = root;
+    temp = &T->root;
     back = NULL;
 
     while(temp != NULL) // Loop till temp falls out of the tree 
@@ -79,7 +64,7 @@ int insertBtree1(TreeNode *root, TreeNode *newNode)
 
     // Now attach the new node to the node that back points to 
     if(back == NULL) // Attach as root node in a new tree 
-        root = newNode;
+        T->root = *newNode;
     else
     {
         if(newNode->key < back->key)
@@ -87,13 +72,14 @@ int insertBtree1(TreeNode *root, TreeNode *newNode)
         else
             back->right = newNode;
     }
+   T->size++;
    return(TRUE);
 }
 
 // Insert a new node into the tree.                
 // Preconditions: None
 // Returns: int (TRUE if successful, FALSE otherwise)
-int insertBtree2(TreeNode *root, int key, void *val)
+int insertBtree2(BTree *T, int key, void *val)
 {
     TreeNode *newNode;
 
@@ -104,19 +90,19 @@ int insertBtree2(TreeNode *root, int key, void *val)
     newNode->left = newNode->right = NULL;
 
     // Call Insert1() to do the actual insertion
-    return(insertBtree1(root, newNode));
+    return(insertBtree1(T, newNode));
 }
 
 // Purpose: Delete a node from the tree.                    
 // Preconditions: Tree contains the node to delete
 // Returns: int (TRUE if successful, FALSE otherwise)                               
-int deleteBtnode(TreeNode *root, int key)
+int deleteBtnode(BTree *T, int key)
 {
     TreeNode *back;
     TreeNode *temp;
     TreeNode *delParent;    // Parent of node to delete
     TreeNode *delNode;      // Node to delete
-
+    TreeNode *root = &T->root;
     temp = root;
     back = NULL;
 
@@ -199,4 +185,130 @@ int deleteBtnode(TreeNode *root, int key)
             return TRUE;
         }
     }
+}
+
+// Recursively swap the children of a node.
+TreeNode *swapBtree(TreeNode *p) 
+{
+    TreeNode *temp1=NULL, *temp2=NULL; 
+    if(p != NULL) { 
+        temp1= swapBtree(p->left); 
+        temp2 = swapBtree(p->right);
+        p->right = temp1; 
+        p->left = temp2; 
+     } 
+     return(p); 
+} 
+
+// Iterative inorder traversal, upon which freq and key is put in matrix.
+void foreachBtree(BTree *T,  void(*f)(TreeNode*))
+{
+    TreeNode *p = &T->root; 
+    TreeNode *stack[100]; 
+    int i = 0;
+    int top;
+    top = -1; 
+    if(p != NULL) {
+        top++; 
+        stack[top] = p; 
+        p = p->left; 
+        while(top >= 0) { 
+             while (p!= NULL) { 
+                top++; 
+                stack[top] = p; 
+                p = p->left; 
+            }  
+           
+            p = stack[top]; 
+            top--;
+            f(p);
+            p = p->right; 
+
+            if (p != NULL) { 
+                top++; 
+                stack[top] = p; 
+                p = p->left; 
+            } 
+        } 
+    }
+}
+
+int *order(int *best[], int i, int j)
+{
+    if (i == j) {
+        order(best, i, best[i][j]-1);
+        order(best, best[i][j], j);
+    }
+}
+
+// Create an optimised binary search tree depending on access frequency.
+void obst(BTree *T)
+{
+    int N = T->size;
+    int knf[N][2];
+    ree(T, knf);
+    int cost[N+1][N],best[N+1][N];
+    int i,j,k,t;
+
+    for (i = 1; i <= N; i++)
+        for (j = i+1; j <= N; j++) 
+            cost[i][j] = INT_MAX;
+    for (i = 1; i <= N; i++) 
+        cost[i][i] = knf[i][1];
+    for (i = 1; i <= N+1; i++) 
+        cost[i][i-1] = 0;
+    for (j = 1; i <= N-1; j++)
+        for (i = 1; i <= N-j; i++)
+            for (k = i; k <= i+j; k++) {
+                t = cost[i][k-1] + cost[k+1][i+j];
+                if (t < cost[i][i+j]) {
+                    cost[i][i+j] = t;
+                    best[i][i+j] = k;
+                }
+            }
+            for (k = i; k <= i+j; cost[i][j] += knf[k++][1]);
+    i = j = 0;
+    order(best, i, j);
+}
+
+// Function to remove an element from the queue
+void *pop(struct llist* q) {
+    if (q->head == NULL) {
+        printf("struct llist is Empty\n");
+        return FALSE;
+    }
+    void *data = q->head->data;
+    free(q->head);
+    q->head = q->head->next;
+    q->count--;
+    return data;
+}
+
+// Breadth first search for a binary tree, using a linked list queue.
+int btbfs(BTree *T)
+{
+    int level = 0;
+    TreeNode *node, *root = &T->root;
+    struct llist* q = llist_create();
+    
+    if (root == NULL) {
+        fprintf(stderr, "root tree node is null");
+        exit(-1);
+    }
+    llist_append(q, root);
+
+    while (q->head != NULL) {
+        for (int i = 0; i < q->count; i++) {
+            pop(q);
+            if (node->left != NULL) {
+                llist_append(q, node->left);
+            }
+            if (node->right != NULL) {
+                llist_append(q, node->right);
+            }
+        }
+        level++;
+    }
+    llist_destroy(q);
+    return level;
 }
