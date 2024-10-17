@@ -18,21 +18,23 @@ static void *context_realloc(void *oldp, size_t oldsz, size_t newsz)
     if (newsz <= oldsz) return oldp;
     return memcpy(context_alloc(newsz), oldp, oldsz);
 }
-#define INIT_CAPACITY 8192
-#define REALLOC context_realloc
-#define da_append(da, item)                                                 \
-    do {                                                                    \
-        if ((da)->count >= (da)->capacity) {                                \
-            size_t new_capacity = (da)->capacity*2;                         \
-            if (new_capacity == 0) {                                        \
-                new_capacity = INIT_CAPACITY;                               \
-            }                                                               \
-                                                                            \
-            (da)->items = REALLOC((da)->items,                              \
-                                     (da)->capacity*sizeof((da)->items[0]), \
-                                     new_capacity*sizeof((da)->items[0]));  \
-            (da)->capacity = new_capacity;                                  \
-        }                                                                   \
-                                                                            \
-        (da)->items[(da)->count++] = (item);                                \
-    } while (0)
+void region_append(Region *region, void *data)                                                 
+{
+    while ((region)->count >= region->capacity) {                                
+        size_t new_capacity = region->capacity*2;                         
+        if (new_capacity == 0) {                                        
+            new_capacity = 8192;                               
+        }                                                               
+                                                                        
+        region->data = context_realloc((void*)region->data, region->capacity*sizeof(region->data[0]), new_capacity*sizeof(region->data[0]));  
+        region->capacity = new_capacity;                                  
+    }                                                                   
+                                                                        
+    region->data[region->count++] = data;                                
+}
+
+int main()
+{
+    arena_reset(context_arena);
+    region
+}

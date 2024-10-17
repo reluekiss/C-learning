@@ -20,6 +20,9 @@ struct Region {
 
 typedef struct {
     Region *begin, *end;
+    size_t new_region_calls;
+    size_t existing_region_skipped;
+    size_t allocation_exceeded;
 } Arena;
 
 #define REGION_DEFAULT_CAPACITY (8*1024)
@@ -49,26 +52,18 @@ void print_arena_statistics();
 #define MAP_ANONYMOUS 0x20
 #define MAP_PRIVATE 0x02
 
-// Helper function to align memory allocation
-static inline size_t align_up(size_t value, size_t alignment)
-{
-    return (value + alignment - 1) & ~(alignment - 1);
-}
-
 Region *new_region(size_t object_size)
 {
     size_t capacity = (object_size + sizeof(Region)) / sizeof(void*);
 
     size_t size_bytes = sizeof(Region) + sizeof(void*)*capacity;
 
-    // Ensure allocation is page-aligned
-    size_t alignment = align_up(sizeof(Region), REGION_DEFAULT_CAPACITY);
+    size_t alignment = (sizeof(Region) + REGION_DEFAULT_CAPACITY - 1) & ~(REGION_DEFAULT_CAPACITY - 1);
     size_t padded_size = alignment + (size_bytes % alignment == 0 ? 0 : (REGION_DEFAULT_CAPACITY - size_bytes % REGION_DEFAULT_CAPACITY));
 
     int fd = open("/dev/zero", O_RDONLY);
     if (fd == -1) {
         fprintf(stderr, "Failed to open /dev/zero: %s\n", strerror(errno));
-        perror("open /dev/zero");
         return NULL;
     }
 
@@ -79,6 +74,8 @@ Region *new_region(size_t object_size)
         fprintf(stderr, "Failed to map memory: %s\n", strerror(errno));
         return NULL;
     }
+    
+    madvise(addr, sizeof(Region), MADV_WILLNEED);
 
     Region *r = addr;
     r->next = NULL;
@@ -91,10 +88,6 @@ void free_region(Region *r)
     munmap(r, sizeof(Region));
 }
 
-size_t new_region_calls = 0;
-size_t existing_region_skipped = 0;
-size_t allocation_exceeded = 0;
-
 void *arena_alloc(Arena *a, size_t size_bytes)
 {
     size_t size = (size_bytes + sizeof(uintptr_t) - 1)/sizeof(uintptr_t);
@@ -105,50 +98,26 @@ void *arena_alloc(Arena *a, size_t size_bytes)
         if (capacity < size) capacity = size;
         a->end = new_region(capacity);
         a->begin = a->end;
-        new_region_calls++;
+        a->new_region_calls++;
     }
 
-    Region *current_region = a->end;
-
-    // Check if allocation exceeds capacity
-    if (current_region->count + size > current_region->capacity) {
-        allocation_exceeded++;
-
-        // Try to allocate in the next region
-        while (current_region->next != NULL && current_region->next->count + size <= current_region->next->capacity) {
-            current_region = current_region->next;
-        }
-
-        if (current_region->next == NULL) {
-            size_t capacity = REGION_DEFAULT_CAPACITY;
-            if (capacity < size) capacity = size;
-            current_region->next = new_region(capacity);
-            current_region = current_region->next;
-            new_region_calls++;
-        }
+    while (a->end->count + size > a->end->capacity && a->end->next != NULL) {
+        a->existing_region_skipped++;
+        a->end = a->end->next;
     }
 
-    // Check if we should skip the existing region
-    if (current_region->count + size > current_region->capacity) {
-        existing_region_skipped++;
-        current_region = current_region->next;
-    }
-
-    while (current_region->count + size > current_region->capacity && current_region->next != NULL) {
-        current_region = current_region->next;
-    }
-
-    if (current_region->count + size > current_region->capacity) {
-        ARENA_ASSERT(current_region->next == NULL);
+    if (a->end->count + size > a->end->capacity) {
+        a->allocation_exceeded++;
+        ARENA_ASSERT(a->end->next == NULL);
         size_t capacity = REGION_DEFAULT_CAPACITY;
         if (capacity < size) capacity = size;
-        current_region->next = new_region(capacity);
-        current_region = current_region->next;
-        new_region_calls++;
+        a->end->next = new_region(capacity);
+        a->end = a->end->next;
+        a->new_region_calls++;
     }
 
-    void *result = &current_region->data[current_region->count];
-    current_region->count += size;
+    void *result = &a->end->data[a->end->count];
+    a->end->count += size;
     return result;
 }
 
@@ -159,9 +128,9 @@ void arena_reset(Arena *a)
     }
     a->end = a->begin;
 
-    new_region_calls = 0;
-    existing_region_skipped = 0;
-    allocation_exceeded = 0;
+    a->new_region_calls = 0;
+    a->existing_region_skipped = 0;
+    a->allocation_exceeded = 0;
 }
 
 void arena_free(Arena *a)
@@ -174,12 +143,5 @@ void arena_free(Arena *a)
     }
     a->begin = NULL;
     a->end = NULL;
-}
-
-void print_arena_statistics() {
-    printf("Arena Statistics:\n");
-    printf("New regions called: %zu\n", new_region_calls);
-    printf("Existing regions skipped: %zu\n", existing_region_skipped);
-    printf("Allocations exceeded capacity: %zu\n", allocation_exceeded);
 }
 #endif // ARENA_IMPLEMENTATION
