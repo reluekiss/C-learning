@@ -10,10 +10,12 @@
  * @return the result of a ↑↑ n
  */
 
+#include <assert.h>
 #include <stdio.h>
 #include <stdint.h>
 
-unsigned long long power(unsigned long long a, unsigned long long n) {
+__int128 power(__int128 a, __int128 n)
+{
     if (n == 0) {
         return 1;
     } else {
@@ -21,7 +23,8 @@ unsigned long long power(unsigned long long a, unsigned long long n) {
     }
 }
 
-unsigned long long tower(unsigned long long a, unsigned long long b) {
+__int128 tower(__int128 a, __int128 b)
+{
     if (b == 0) {
         printf("Error: b == 0\n");
     } else if (b == 1) {
@@ -32,16 +35,20 @@ unsigned long long tower(unsigned long long a, unsigned long long b) {
     return 0;
 }
 
-unsigned long long arr(unsigned long long a, unsigned long long b, unsigned long long s);
+__int128 arr(__int128 a, __int128 b, __int128 s);
 
-unsigned long long arr2(unsigned long long cnt, unsigned long long a, unsigned long long sp, unsigned long long b) {    if (cnt == 0) {
+__int128 arr2(__int128 cnt, __int128 a, __int128 sp, __int128 b)
+{
+    if (cnt == 0) {
         return arr(a, sp, b);
     } else {
         return arr(a, arr2(cnt - 1, a, sp, b), sp);
     }
 }
 
-unsigned long long arr(unsigned long long a, unsigned long long s, unsigned long long b) {    if (s == 1) {
+__int128 arr(__int128 a, __int128 s, __int128 b)
+{
+    if (s == 1) {
         return power(a, b);
     } else if (s == 2) {
         return tower(a, b);
@@ -50,9 +57,27 @@ unsigned long long arr(unsigned long long a, unsigned long long s, unsigned long
     }
 }
 
+void print(__int128 x) {
+    if (x < 0) {
+        putchar('-');
+        x = -x;
+    }
+    if (x > 9) print(x / 10);
+    putchar(x % 10 + '0');
+}
+
+__int128 size(int n)
+{
+    __int128 val = 2;
+    for (int i = 0; i < n; i++) {
+        val = arr(val, val, i);
+        print(val);
+        putchar('\n');
+    }
+    return val;
+}
 
 int main() {
-    printf("%llu\n", arr(2, 2, 4));
-    printf("%llu\n", arr(3, 2, 3));
+    size(9);
     return 0;
 }

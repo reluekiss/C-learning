@@ -1,0 +1,83 @@
+void kalman_update(...) {
+    int N = STATE_SIZE;
+    int M = MEASUREMENTS;
+
+    // Compute hx
+    double *hx = new double[M];
+    for(int i=0; i<M; i++) {
+        hx[i] = 0.0;
+        for(int j=0; j<N; j++) {
+            hx[i] += H[i][j] * x[j];
+        }
+    }
+
+    // Compute residual
+    double *residual = new double[M];
+    for(int i=0; i<M; i++) {
+        residual[i] = y[i] - hx[i];
+    }
+
+    // Compute S = H*P*H^T + R
+    double **S = create_matrix(M, M);
+    for(int i=0; i<M; i++) {
+        for(int j=0; j<M; j++) {
+            S[i][j] = 0.0;
+            for(int k=0; k<N; k++) {
+                S[i][j] += H[i][k] * P[k][l] * H[j][l]; // Wait, need to double-check indices
+            }
+        }
+    }
+
+    // Add R to S
+    for(int i=0; i<M; i++) {
+        for(int j=0; j<M; j++) {
+            S[i][j] += R[i][j];
+        }
+    }
+
+    // Invert S
+    invert_matrix(S, M);
+
+    // Compute K = P*H^T * inv(S)
+    double **KH = create_matrix(N, N);
+    for(int i=0; i<N; i++) {
+        for(int j=0; j<N; j++) {
+            KH[i][j] = 0.0;
+            for(int k=0; k<M; k++) {
+                // H^T is [N][M], so H[j][k] since H is [M][N]
+                KH[i][j] += P[i][k] * H[k][j];
+            }
+        }
+    }
+
+    double **K = multiply_matrix(KH, S_inv); // Assuming S_inv is already inverted
+
+    // Update x
+    double *x_update = new double[N];
+    for(int i=0; i<N; i++) {
+        x_update[i] = 0.0;
+        for(int j=0; j<M; j++) {
+            x_update[i] += K[i][j] * residual[j];
+        }
+    }
+
+    // Add to x
+    for(int i=0; i<N; i++) {
+        x[i] += x_update[i];
+    }
+
+    // Update P = (I - K*H) * P
+    double **KH_part = multiply_matrix(K, H);
+    for(int i=0; i<N; i++) {
+        for(int j=0; j<N; j++) {
+            for(int k=0; k<N; k++) {
+                // I is identity matrix
+                if(i == j) P[i][j] *= (1 - KH_part[i][k]);
+                else P[i][j] -= KH_part[i][k] * P[k][j];
+            }
+        }
+    }
+
+    free_memory(...);
+}
+

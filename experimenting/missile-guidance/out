@@ -1,0 +1,2666 @@
+
+Sensor Reading at t = 0.002s:
+Position X: 100.041
+Velocity X: 50.087
+Position Y: -nan
+Velocity Y: 49.940
+Position Z: -nan
+Velocity Z: 49.949
+
+Actuator Outputs:
+Thrust: 0.083
+Roll: 0.067
+Pitch: 0.100
+Yaw: 0.134
+(null): 0.167
+(null): 0.201
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ 0.050 0.000 0.000
+0.000 0.000 0.000
+0.000 0.000 0.000
+0.000 0.000 0.000
+1:
+ 0.000 0.050 0.000
+0.000 0.000 0.000
+0.000 0.000 0.000
+0.000 0.000 0.000
+2:
+ 0.000 0.000 0.050
+0.000 0.000 0.000
+0.000 0.000 0.000
+0.000 0.000 0.000
+3:
+ 0.000 0.000 0.000
+0.050 0.000 0.000
+-0.000 -0.000 -0.000
+0.000 0.000 0.000
+4:
+ 0.000 0.000 0.000
+0.000 0.050 0.000
+-0.000 -0.000 -0.000
+0.000 0.000 0.000
+5:
+ 0.000 0.000 0.000
+0.000 0.000 0.050
+-0.000 -0.000 -0.000
+0.000 0.000 0.000
+6:
+ 0.000 0.000 0.000
+-0.000 -0.000 -0.000
+0.100 -0.000 -0.000
+0.001 0.000 0.000
+7:
+ 0.000 0.000 0.000
+-0.000 -0.000 -0.000
+-0.000 0.100 -0.000
+0.000 0.001 0.000
+8:
+ 0.000 0.000 0.000
+-0.000 -0.000 -0.000
+-0.000 -0.000 0.100
+0.000 0.000 0.001
+9:
+ 0.000 0.000 0.000
+0.000 0.000 0.000
+0.001 0.000 0.000
+0.100 0.000 0.000
+10:
+ 0.000 0.000 0.000
+0.000 0.000 0.000
+0.000 0.001 0.000
+0.000 0.100 0.000
+11:
+ 0.000 0.000 0.000
+0.000 0.000 0.000
+0.000 0.000 0.001
+0.000 0.000 0.100
+
+
+Sensor Reading at t = 0.002s:
+Position X: 100.041
+Velocity X: 50.087
+Position Y: -nan
+Velocity Y: 49.940
+Position Z: -nan
+Velocity Z: 49.949
+
+Actuator Outputs:
+Thrust: 0.089
+Roll: 0.071
+Pitch: 0.107
+Yaw: 0.143
+(null): 0.179
+(null): 0.215
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.002s:
+Position X: 100.041
+Velocity X: 50.088
+Position Y: -nan
+Velocity Y: 49.940
+Position Z: -nan
+Velocity Z: 49.950
+
+Actuator Outputs:
+Thrust: 0.096
+Roll: 0.077
+Pitch: 0.116
+Yaw: 0.154
+(null): 0.193
+(null): 0.232
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.002s:
+Position X: 100.041
+Velocity X: 50.088
+Position Y: -nan
+Velocity Y: 49.941
+Position Z: -nan
+Velocity Z: 49.951
+
+Actuator Outputs:
+Thrust: 0.110
+Roll: 0.088
+Pitch: 0.132
+Yaw: 0.176
+(null): 0.220
+(null): 0.265
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.002s:
+Position X: 100.041
+Velocity X: 50.088
+Position Y: -nan
+Velocity Y: 49.942
+Position Z: -nan
+Velocity Z: 49.953
+
+Actuator Outputs:
+Thrust: 0.120
+Roll: 0.096
+Pitch: 0.145
+Yaw: 0.193
+(null): 0.241
+(null): 0.290
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.002s:
+Position X: 100.042
+Velocity X: 50.089
+Position Y: -nan
+Velocity Y: 49.943
+Position Z: -nan
+Velocity Z: 49.954
+
+Actuator Outputs:
+Thrust: 0.131
+Roll: 0.105
+Pitch: 0.157
+Yaw: 0.210
+(null): 0.263
+(null): 0.316
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.003s:
+Position X: 100.042
+Velocity X: 50.089
+Position Y: -nan
+Velocity Y: 49.944
+Position Z: -nan
+Velocity Z: 49.955
+
+Actuator Outputs:
+Thrust: 0.141
+Roll: 0.113
+Pitch: 0.169
+Yaw: 0.226
+(null): 0.283
+(null): 0.340
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.003s:
+Position X: 100.042
+Velocity X: 50.090
+Position Y: -nan
+Velocity Y: 49.945
+Position Z: -nan
+Velocity Z: 49.956
+
+Actuator Outputs:
+Thrust: 0.153
+Roll: 0.123
+Pitch: 0.184
+Yaw: 0.245
+(null): 0.307
+(null): 0.368
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.003s:
+Position X: 100.042
+Velocity X: 50.090
+Position Y: -nan
+Velocity Y: 49.946
+Position Z: -nan
+Velocity Z: 49.958
+
+Actuator Outputs:
+Thrust: 0.163
+Roll: 0.130
+Pitch: 0.196
+Yaw: 0.261
+(null): 0.327
+(null): 0.392
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.003s:
+Position X: 100.042
+Velocity X: 50.090
+Position Y: -nan
+Velocity Y: 49.946
+Position Z: -nan
+Velocity Z: 49.959
+
+Actuator Outputs:
+Thrust: 0.173
+Roll: 0.138
+Pitch: 0.208
+Yaw: 0.277
+(null): 0.347
+(null): 0.416
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.004s:
+Position X: 100.043
+Velocity X: 50.091
+Position Y: -nan
+Velocity Y: 49.947
+Position Z: -nan
+Velocity Z: 49.960
+
+Actuator Outputs:
+Thrust: 0.183
+Roll: 0.146
+Pitch: 0.220
+Yaw: 0.293
+(null): 0.367
+(null): 0.441
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.004s:
+Position X: 100.043
+Velocity X: 50.091
+Position Y: -nan
+Velocity Y: 49.948
+Position Z: -nan
+Velocity Z: 49.961
+
+Actuator Outputs:
+Thrust: 0.193
+Roll: 0.155
+Pitch: 0.232
+Yaw: 0.310
+(null): 0.388
+(null): 0.466
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.004s:
+Position X: 100.043
+Velocity X: 50.092
+Position Y: -nan
+Velocity Y: 49.949
+Position Z: -nan
+Velocity Z: 49.963
+
+Actuator Outputs:
+Thrust: 0.203
+Roll: 0.163
+Pitch: 0.244
+Yaw: 0.326
+(null): 0.408
+(null): 0.490
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.004s:
+Position X: 100.043
+Velocity X: 50.092
+Position Y: -nan
+Velocity Y: 49.950
+Position Z: -nan
+Velocity Z: 49.964
+
+Actuator Outputs:
+Thrust: 0.213
+Roll: 0.171
+Pitch: 0.256
+Yaw: 0.342
+(null): 0.428
+(null): 0.514
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.004s:
+Position X: 100.043
+Velocity X: 50.093
+Position Y: -nan
+Velocity Y: 49.950
+Position Z: -nan
+Velocity Z: 49.965
+
+Actuator Outputs:
+Thrust: 0.220
+Roll: 0.176
+Pitch: 0.264
+Yaw: 0.352
+(null): 0.440
+(null): 0.528
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.004s:
+Position X: 100.044
+Velocity X: 50.093
+Position Y: -nan
+Velocity Y: 49.951
+Position Z: -nan
+Velocity Z: 49.966
+
+Actuator Outputs:
+Thrust: 0.231
+Roll: 0.185
+Pitch: 0.278
+Yaw: 0.371
+(null): 0.464
+(null): 0.557
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.005s:
+Position X: 100.044
+Velocity X: 50.093
+Position Y: -nan
+Velocity Y: 49.952
+Position Z: -nan
+Velocity Z: 49.967
+
+Actuator Outputs:
+Thrust: 0.241
+Roll: 0.193
+Pitch: 0.290
+Yaw: 0.387
+(null): 0.484
+(null): 0.581
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.005s:
+Position X: 100.044
+Velocity X: 50.094
+Position Y: -nan
+Velocity Y: 49.953
+Position Z: -nan
+Velocity Z: 49.968
+
+Actuator Outputs:
+Thrust: 0.248
+Roll: 0.199
+Pitch: 0.298
+Yaw: 0.397
+(null): 0.497
+(null): 0.597
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.005s:
+Position X: 100.044
+Velocity X: 50.094
+Position Y: -nan
+Velocity Y: 49.953
+Position Z: -nan
+Velocity Z: 49.969
+
+Actuator Outputs:
+Thrust: 0.254
+Roll: 0.203
+Pitch: 0.305
+Yaw: 0.407
+(null): 0.509
+(null): 0.611
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.005s:
+Position X: 100.044
+Velocity X: 50.094
+Position Y: -nan
+Velocity Y: 49.954
+Position Z: -nan
+Velocity Z: 49.970
+
+Actuator Outputs:
+Thrust: 0.264
+Roll: 0.211
+Pitch: 0.317
+Yaw: 0.423
+(null): 0.530
+(null): 0.636
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.005s:
+Position X: 100.044
+Velocity X: 50.095
+Position Y: -nan
+Velocity Y: 49.955
+Position Z: -nan
+Velocity Z: 49.971
+
+Actuator Outputs:
+Thrust: 0.274
+Roll: 0.220
+Pitch: 0.330
+Yaw: 0.440
+(null): 0.550
+(null): 0.660
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.006s:
+Position X: 100.045
+Velocity X: 50.095
+Position Y: -nan
+Velocity Y: 49.955
+Position Z: -nan
+Velocity Z: 49.972
+
+Actuator Outputs:
+Thrust: 0.284
+Roll: 0.228
+Pitch: 0.342
+Yaw: 0.456
+(null): 0.570
+(null): 0.684
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.006s:
+Position X: 100.045
+Velocity X: 50.096
+Position Y: -nan
+Velocity Y: 49.957
+Position Z: -nan
+Velocity Z: 49.974
+
+Actuator Outputs:
+Thrust: 0.299
+Roll: 0.239
+Pitch: 0.359
+Yaw: 0.479
+(null): 0.599
+(null): 0.719
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.006s:
+Position X: 100.045
+Velocity X: 50.096
+Position Y: -nan
+Velocity Y: 49.957
+Position Z: -nan
+Velocity Z: 49.975
+
+Actuator Outputs:
+Thrust: 0.309
+Roll: 0.248
+Pitch: 0.371
+Yaw: 0.496
+(null): 0.620
+(null): 0.744
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.006s:
+Position X: 100.045
+Velocity X: 50.096
+Position Y: -nan
+Velocity Y: 49.958
+Position Z: -nan
+Velocity Z: 49.977
+
+Actuator Outputs:
+Thrust: 0.320
+Roll: 0.256
+Pitch: 0.385
+Yaw: 0.513
+(null): 0.642
+(null): 0.770
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.006s:
+Position X: 100.046
+Velocity X: 50.097
+Position Y: -nan
+Velocity Y: 49.959
+Position Z: -nan
+Velocity Z: 49.978
+
+Actuator Outputs:
+Thrust: 0.331
+Roll: 0.265
+Pitch: 0.397
+Yaw: 0.530
+(null): 0.663
+(null): 0.796
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.007s:
+Position X: 100.046
+Velocity X: 50.097
+Position Y: -nan
+Velocity Y: 49.960
+Position Z: -nan
+Velocity Z: 49.979
+
+Actuator Outputs:
+Thrust: 0.338
+Roll: 0.271
+Pitch: 0.406
+Yaw: 0.542
+(null): 0.677
+(null): 0.813
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.007s:
+Position X: 100.046
+Velocity X: 50.097
+Position Y: -nan
+Velocity Y: 49.960
+Position Z: -nan
+Velocity Z: 49.980
+
+Actuator Outputs:
+Thrust: 0.348
+Roll: 0.278
+Pitch: 0.418
+Yaw: 0.557
+(null): 0.697
+(null): 0.837
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+
+
+Sensor Reading at t = 0.007s:
+Position X: 100.046
+Velocity X: 50.098
+Position Y: -nan
+Velocity Y: 49.961
+Position Z: -nan
+Velocity Z: 49.981
+
+Actuator Outputs:
+Thrust: 0.358
+Roll: 0.287
+Pitch: 0.430
+Yaw: 0.574
+(null): 0.718
+(null): 0.862
+
+Missile State:
+0: -nan
+1: -nan
+2: -nan
+3: -nan
+4: -nan
+5: -nan
+6: -nan
+7: -nan
+8: -nan
+9: -nan
+10: -nan
+11: -nan
+
+0:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+1:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+2:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+3:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+4:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+5:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+6:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+7:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+8:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+9:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+10:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+-nan -nan -nan
+11:
+ -nan -nan -nan
+-nan -nan -nan
+-nan -

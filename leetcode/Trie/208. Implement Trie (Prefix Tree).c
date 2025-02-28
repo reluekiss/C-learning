@@ -28,7 +28,6 @@ trie.search("app");     // return True */
 #include "btree.h"
 #include "hashtable.h"
 #include "llist.h"
-#include <string.h>
 #include <strings.h>
 
 typedef struct {

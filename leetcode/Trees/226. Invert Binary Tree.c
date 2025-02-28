@@ -18,8 +18,8 @@ Constraints:
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "btree.h"
-#include "hashtable.h"
+#include "../../include/btree.h"
+#include "../../include/hashtable.h"
 
 void atobt(TreeNode **t, void **a, int index, int n, int(cmp)(void*, int, int))
 {

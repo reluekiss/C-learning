@@ -2,7 +2,6 @@
 #define BTREE_H
 #include <stdio.h>
 
-// Define a structure to be used as the tree node
 typedef struct TreeNodeType {
     int                 freq;
     int                 key;
@@ -15,7 +14,6 @@ typedef struct BTree {
     TreeNode root;
 }BTree;
 
-// Function prototypes
 extern void clearTree(TreeNode *T);
 extern TreeNode *searchTree(BTree *T, int key);
 extern int insertBtree1(BTree *T, TreeNode *newNode);
