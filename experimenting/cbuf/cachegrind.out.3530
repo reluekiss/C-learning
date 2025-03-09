@@ -1,0 +1,336 @@
+cmd: ./mmap
+events: Ir
+fl=./build/x86_64-unknown-linux-gnu/libgcc/./libgcc/config/i386/crtfastmath.c
+fn=set_fast_math
+84 1
+94 1
+96 2
+98 1
+fl=./csu/./csu/static-reloc.c
+fn=_dl_relocate_static_pie
+25 1
+fl=/builddir/glibc-2.39/csu/../sysdeps/x86_64/start.S
+fn=(below main)
+62 1
+78 1
+84 1
+87 1
+89 1
+92 1
+96 1
+99 1
+100 1
+103 1
+115 1
+fl=???
+fn=(below main)
+0 404
+fn=???
+0 146
+fn=_IO_do_write
+0 4
+fn=_IO_doallocbuf
+0 23
+fn=_IO_file_overflow
+0 51
+fn=_IO_file_sync
+0 17
+fn=_IO_file_write
+0 36
+fn=_IO_file_xsputn
+0 59
+fn=__assert_fail
+0 19
+fn=__assert_fail_base
+0 75
+fn=__assert_fail_base.cold
+0 3
+fn=__ctype_init
+0 16
+fn=__current_locale_name
+0 10
+fn=__cxa_atexit
+0 2
+fn=__dcigettext
+0 177
+fn=__fxprintf
+0 24
+fn=__init_misc
+0 22
+fn=__internal_atexit
+0 34
+fn=__libc_alloc_buffer_copy_bytes
+0 84
+fn=__libc_early_init
+0 46
+fn=__libc_init_first
+0 17
+fn=__libc_setup_tls
+0 145
+fn=__lll_elision_init
+0 36
+fn=__memchr_avx2
+0 36
+fn=__memcmp_avx2_movbe
+0 18
+fn=__memcpy_avx_unaligned_erms
+0 317
+fn=__mempcpy_avx_unaligned_erms
+0 12
+fn=__new_exitfn
+0 31
+fn=__open_nocancel
+0 27
+fn=__printf_buffer
+0 873
+fn=__printf_buffer_done
+0 54
+fn=__printf_buffer_flush_to_file
+0 45
+fn=__printf_buffer_to_file_done
+0 9
+fn=__printf_buffer_to_file_init
+0 14
+fn=__printf_buffer_write
+0 551
+fn=__pthread_kill_implementation.constprop.0
+0 20
+fn=__pthread_tunables_init
+0 24
+fn=__register_frame_info
+0 24
+fn=__set_vma_name
+0 29
+fn=__shm_get_name
+0 108
+fn=__sigjmp_save
+0 8
+fn=__sigsetjmp
+0 18
+fn=__stpcpy_avx2
+0 22
+fn=__strchr_avx2
+0 40
+fn=__strchrnul_avx2
+0 198
+fn=__strcpy_avx2
+0 25
+fn=__strcspn_sse42
+0 132
+fn=__strlen_avx2
+0 548
+fn=__strncmp_avx2
+0 973
+fn=__strrchr_avx2
+0 21
+fn=__tls_init_tp
+0 51
+fn=__tls_pre_init_tp
+0 13
+fn=__tunable_get_val
+0 662
+fn=__tunable_set_val
+0 35
+fn=__tunables_init
+0 20661
+fn=__vasprintf_internal
+0 55
+fn=__vfprintf_internal
+0 47
+fn=__vfxprintf
+0 34
+fn=_dl_aux_init
+0 272
+fn=_dl_debug_initialize
+0 24
+fn=_dl_dst_count
+0 34
+fn=_dl_early_allocate
+0 19
+fn=_dl_find_object_from_map
+0 128
+fn=_dl_find_object_init
+0 35
+fn=_dl_get_origin
+0 69
+fn=_dl_init_paths
+0 324
+fn=_dl_non_dynamic_init
+0 182
+fn=_dl_protect_relro
+0 19
+fn=_dl_tls_static_surplus_init
+0 36
+fn=_dlfo_process_initial
+0 248
+fn=_dlfo_sort_mappings.part.0
+0 120
+fn=_int_free
+0 162
+fn=_int_malloc
+0 1667
+fn=_itoa_word
+0 52
+fn=_setjmp
+0 2
+fn=abort
+0 41
+fn=alloc_perturb
+0 48
+fn=asprintf
+0 24
+fn=bcmp
+0 25
+fn=brk
+0 21
+fn=btree_allocate_node.constprop.0
+0 18
+fn=btree_insert.constprop.0.isra.0
+0 55
+fn=calloc
+0 72
+fn=classify_object_over_fdes
+0 61671
+fn=close
+0 7
+fn=dcgettext
+0 5
+fn=do_tunable_update_val
+0 185
+fn=expand_dynamic_string_token
+0 36
+fn=fflush
+0 43
+fn=fillin_rpath.isra.0
+0 248
+fn=free
+0 75
+fn=ftruncate
+0 5
+fn=get_cie_encoding
+0 829
+fn=get_common_cache_info.constprop.0
+0 226
+fn=get_common_indices.constprop.0
+0 71
+fn=get_extended_indices.constprop.0
+0 30
+fn=get_pc_range
+0 20
+fn=getenv
+0 1205
+fn=getpagesize
+0 4
+fn=getpid
+0 3
+fn=getrlimit
+0 9
+fn=handle_intel.constprop.0
+0 504
+fn=index
+0 20
+fn=init_cpu_features.constprop.0
+0 379
+fn=intel_check_word.constprop.0
+0 5484
+fn=locked_vfxprintf
+0 34
+fn=main
+0 130036
+fn=malloc
+0 446
+fn=memchr
+0 23
+fn=memcpy
+0 22
+fn=memmove
+0 22
+fn=mempcpy
+0 22
+fn=memset
+0 24
+fn=mmap
+0 78
+fn=mprotect
+0 5
+fn=new_do_write
+0 49
+fn=pthread_kill
+0 4
+fn=pthread_rwlock_rdlock
+0 69
+fn=pthread_rwlock_unlock
+0 114
+fn=pthread_self
+0 2
+fn=pthread_setcancelstate
+0 22
+fn=ptmalloc_init.part.0
+0 844
+fn=raise
+0 6
+fn=read_encoded_value_with_base
+0 61656
+fn=rindex
+0 24
+fn=ring_buffer_init
+0 74
+fn=sbrk
+0 47
+fn=shm_open
+0 32
+fn=shm_unlink
+0 22
+fn=stpcpy
+0 18
+fn=strcasecmp_l
+0 20
+fn=strchrnul
+0 24
+fn=strcmp
+0 20
+fn=strcpy
+0 18
+fn=strcspn
+0 5
+fn=strdup
+0 34
+fn=strlen
+0 24
+fn=strncmp
+0 20
+fn=strnlen
+0 24
+fn=strsep
+0 69
+fn=strspn
+0 5
+fn=strstr
+0 8
+fn=sysconf
+0 48
+fn=sysmalloc
+0 152
+fn=tcache_init.part.0
+0 111
+fn=tfind
+0 17
+fn=unlink
+0 5
+fn=update_active.constprop.0
+0 211
+fn=version_lock_lock_exclusive
+0 19
+fn=version_lock_unlock_exclusive
+0 14
+fn=wcslen
+0 20
+fn=wcsnlen
+0 20
+fn=wmemchr
+0 23
+fn=wmemset
+0 8
+fn=write
+0 7
+summary: 296579
