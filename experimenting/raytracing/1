@@ -1,0 +1,74 @@
+In file included from aabb.h:5,
+                 from hittable.h:4,
+                 from camera.h:4,
+                 from main.c:1:
+vec3.h: In function 'vec3_random':
+vec3.h:52:19: warning: implicit declaration of function 'random_double' [-Wimplicit-function-declaration]
+   52 |     return (vec3){random_double(), random_double(), random_double()};
+      |                   ^~~~~~~~~~~~~
+vec3.h: In function 'vec3_random_range':
+vec3.h:56:19: warning: implicit declaration of function 'random_double_range' [-Wimplicit-function-declaration]
+   56 |     return (vec3){random_double_range(min, max),
+      |                   ^~~~~~~~~~~~~~~~~~~
+hittable.h: In function 'rotate_y_create':
+hittable.h:162:22: warning: implicit declaration of function 'degrees_to_radians' [-Wimplicit-function-declaration]
+  162 |     double radians = degrees_to_radians(angle);
+      |                      ^~~~~~~~~~~~~~~~~~
+In file included from pdf.h:5,
+                 from camera.h:5:
+hittable_list.h: In function 'hittable_list_random':
+hittable_list.h:104:15: warning: implicit declaration of function 'random_int'; did you mean 'random_r'? [-Wimplicit-function-declaration]
+  104 |     int idx = random_int(0, (int)list->size - 1);
+      |               ^~~~~~~~~~
+      |               random_r
+In file included from pdf.h:7:
+common.h: At top level:
+common.h:11:22: error: conflicting types for 'degrees_to_radians'; have 'double(double)'
+   11 | static inline double degrees_to_radians(double degrees) {
+      |                      ^~~~~~~~~~~~~~~~~~
+hittable.h:162:22: note: previous implicit declaration of 'degrees_to_radians' with type 'int()'
+  162 |     double radians = degrees_to_radians(angle);
+      |                      ^~~~~~~~~~~~~~~~~~
+common.h:15:22: error: conflicting types for 'random_double'; have 'double(void)'
+   15 | static inline double random_double(void) {
+      |                      ^~~~~~~~~~~~~
+vec3.h:52:19: note: previous implicit declaration of 'random_double' with type 'int()'
+   52 |     return (vec3){random_double(), random_double(), random_double()};
+      |                   ^~~~~~~~~~~~~
+common.h:20:22: error: conflicting types for 'random_double_range'; have 'double(double,  double)'
+   20 | static inline double random_double_range(double min, double max) {
+      |                      ^~~~~~~~~~~~~~~~~~~
+vec3.h:56:19: note: previous implicit declaration of 'random_double_range' with type 'int()'
+   56 |     return (vec3){random_double_range(min, max),
+      |                   ^~~~~~~~~~~~~~~~~~~
+common.h:25:19: error: static declaration of 'random_int' follows non-static declaration
+   25 | static inline int random_int(int min, int max) {
+      |                   ^~~~~~~~~~
+hittable_list.h:104:15: note: previous implicit declaration of 'random_int' with type 'int()'
+  104 |     int idx = random_int(0, (int)list->size - 1);
+      |               ^~~~~~~~~~
+In file included from camera.h:6:
+material.h: In function 'metal_scatter':
+material.h:110:38: warning: implicit declaration of function 'random_unit_vector'; did you mean 'vec3_random_unit_vector'? [-Wimplicit-function-declaration]
+  110 |                          vec3_scale(&random_unit_vector(), met->fuzz));
+      |                                      ^~~~~~~~~~~~~~~~~~
+      |                                      vec3_random_unit_vector
+material.h:110:37: error: lvalue required as unary '&' operand
+  110 |                          vec3_scale(&random_unit_vector(), met->fuzz));
+      |                                     ^
+material.h:109:26: error: incompatible type for argument 1 of 'vec3_add'
+  109 |     reflected = vec3_add(vec3_unit_vector(&reflected),
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                          |
+      |                          vec3
+vec3.h:65:41: note: expected 'const vec3 *' but argument is of type 'vec3'
+   65 | static inline vec3 vec3_add(const vec3 *u, const vec3 *v) {
+      |                             ~~~~~~~~~~~~^
+material.h: In function 'dielectric_scatter':
+material.h:164:38: error: lvalue required as unary '&' operand
+  164 |     double cos_theta = fmin(vec3_dot(&vec3_neg(&unit_direction), &rec->normal), 1.0);
+      |                                      ^
+main.c: In function 'main':
+main.c:42:22: warning: initialization of 'hittable *' from incompatible pointer type 'hittable_list *' [-Wincompatible-pointer-types]
+   42 |     hittable *box1 = box(vec3_create(0, 0, 0), vec3_create(165, 330, 165), white);
+      |                      ^~~
