@@ -417,4 +417,4 @@ void arena_trim(Arena *a){
     a->end->next = NULL;
 }
 
-#endif // ARENA_IMPLEMENTAT
+#endif // ARENA_IMPLEMENTATION
